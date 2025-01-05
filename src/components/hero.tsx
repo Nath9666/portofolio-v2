@@ -16,7 +16,7 @@ export function Hero() {
           {t("title").split("_")[2]}
         </span>
       </h1>
-      <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+      <p className="max-w-[42rem] mx-6 leading-normal text-muted-foreground sm:text-xl sm:leading-8">
         {t("welcome_phrase")}
       </p>
       <div className="flex gap-4 flex-row">
@@ -40,6 +40,9 @@ export function Hero() {
           </Button>
         </Link>
       </div>
+      <h2 className="font-custom lg:text-5xl text-4xl bg-gradient-to-b from-blue-500 to-blue-500/60 bg-clip-text text-transparent w-full p-2">
+        by Melo-graph
+      </h2>
     </section>
   );
 }
