@@ -40,7 +40,7 @@ export function Hero() {
           </Button>
         </Link>
       </div>
-      <h2 className="font-custom lg:text-5xl text-4xl bg-gradient-to-b from-blue-500 to-blue-500/60 bg-clip-text text-transparent w-full p-2">
+      <h2 className="font-custom lg:text-5xl text-4xl text-white w-full p-2">
         by Melo-graph
       </h2>
     </section>
