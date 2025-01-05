@@ -1,4 +1,4 @@
-import { StarryBackground } from "./star";
+import { StarryBackground, Color } from "./star";
 import { Navbar } from "./navbar";
 import { Footer } from "./footer";
 //import { BookingForm } from "./booking-form";
@@ -19,5 +19,6 @@ export {
   Portfolio,
   Projects,
   Services,
-  Skills
+  Skills,
+  Color
 };

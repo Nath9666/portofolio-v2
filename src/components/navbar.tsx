@@ -29,12 +29,12 @@ export function Navbar() {
     <header className="p-4 sticky top-0 z-50 w-full border-b border-blue-900/10 bg-blue-900/5 backdrop-blur">
       <div className="flex justify-between items-center h-16">
         <Link to="/" className="flex items-center">
-          <img src="/image/Logo_alpha.png" alt="Logo" className="h-20" />
+          <img src="/image/Logo_alpha.png" alt="Logo" className="h-20 md:h-14" />
         </Link>
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
             <Button variant="ghost" size="icon" className="md:hidden">
-              <Menu className="h-6 w-6" />
+              <Menu className="h-14 w-14" />
               <span className="sr-only">Toggle navigation menu</span>
             </Button>
           </SheetTrigger>
