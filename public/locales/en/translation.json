@@ -1,0 +1,54 @@
+{
+  "welcome": "Welcome",
+  "portfolio": "Portfolio",
+  "services": "Services",
+  "contact": "Contact",
+  "book": "Book a Session",
+  "change_language": "Change language",
+  "french": "French",
+  "english": "English",
+  "welcome_phrase": "Bringing your ideas to life through stunning visuals and creative designs. Let's create something extraordinary together.",
+  "title": "Graphic & _ Digital Art",
+  "take_contact": "Get in Touch",
+  "contact_description": "Have a project in mind? Let's bring your vision to life.",
+  "name": "Your name",
+  "email": "Your email",
+  "projet": "Tell me about your project",
+  "send_message": "Send Message",
+  "view_portfolio": "View Portfolio",
+  "services_description": [
+    {
+      "title": "Digital Illustration",
+      "description": "Custom illustrations for various purposes including books, magazines, and digital media."
+    },
+    {
+      "title": "Brand Identity Design",
+      "description": "Comprehensive branding solutions including logo design, color palettes, and brand guidelines."
+    },
+    {
+      "title": "UI/UX Design",
+      "description": "User-centered design for websites and applications, focusing on usability and aesthetics."
+    },
+    {
+      "title": "3D Modeling and Rendering",
+      "description": "Creation of 3D models and photorealistic renders for product visualization and architectural presentations."
+    },
+    {
+      "title": "Motion Graphics",
+      "description": "Animated graphics for video content, including intros, explainer videos, and social media content."
+    },
+    {
+      "title": "Print Design",
+      "description": "Design for print media including brochures, posters, packaging, and other marketing materials."
+    }
+  ],
+  "portfolio_items": [
+    { "title": "Digital Illustration" },
+    { "title": "Brand Identity" },
+    { "title": "UI/UX Design" },
+    { "title": "3D Modeling" },
+    { "title": "Motion Graphics" },
+    { "title": "Print Design" }
+  ],
+  "skills": "Skills & Technologies"
+}
