@@ -34,6 +34,7 @@ export function StarryBackground() {
     const colors = [
       "#fff",
       "#fb923c",
+      "#fb920c",
       "#b45309",
       "#8b5cf6",
       "#6d28d9",
@@ -44,19 +45,25 @@ export function StarryBackground() {
       x: number;
       y: number;
       radius: number;
+      speed: number;
       vx: number;
       vy: number;
       color: string;
     }[] = [];
 
     for (let i = 0; i < numStars; i++) {
+      const speed = random(0.01, 0.5)
+      const xDirection = random(0.1, 0.25)
+      const yDirection = random(0.1, 0.25)
+
       stars.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
         color: colors[Math.floor(Math.random() * colors.length)],
-        radius: Math.random() * 1.5,
-        vx: Math.random() * 0.5 - 0.25,
-        vy: Math.random() * 0.5 - 0.25,
+        speed: speed,
+        radius: Math.random() * 1.6,
+        vx: Math.random() * speed - xDirection,
+        vy: Math.random() * speed - yDirection,
       });
     }
 
