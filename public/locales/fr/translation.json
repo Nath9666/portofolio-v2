@@ -50,5 +50,7 @@
     { "title": "Graphique Animé" },
     { "title": "Design pour impression" }
   ],
-  "skills": "Compétances & Technologies"
+  "skills": "Compétances & Technologies",
+  "404": "404 - Page non trouvée",
+  "404_desc": "Pardon, la page que vous cherchez n'existe pas"
 }

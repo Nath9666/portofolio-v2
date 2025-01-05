@@ -50,5 +50,7 @@
     { "title": "Motion Graphics" },
     { "title": "Print Design" }
   ],
-  "skills": "Skills & Technologies"
+  "skills": "Skills & Technologies",
+  "404": "404 - Page Not Found",
+  "404_desc":"Sorry, the page you are looking for does not exist."
 }
