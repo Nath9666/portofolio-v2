@@ -2,15 +2,23 @@ import { Card, CardContent } from "./ui/card";
 import { useTranslation } from "react-i18next";
 
 const skills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Tailwind CSS",
-  "Git",
+  "Adobe Photoshop",
+  "Adobe Illustrator",
+  "Adobe After Effects",
+  "Procreate",
+  "Figma",
+  "Sketch",
+  "Blender",
+  "Cinema 4D",
+  "Procreate",
+  "InVision",
+  "Affinity Designer",
+  "CorelDRAW",
+  "ZBrush",
+  "Maya",
+  "Substance Painter",
+  "Unity",
+  "Unreal Engine",
 ];
 
 export function Skills() {
