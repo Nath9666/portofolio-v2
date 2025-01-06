@@ -11,6 +11,8 @@ import {
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { FranceFlag } from "./icon/France";
+import { EnglandFlag } from "./icon/England";
 
 export function Navbar() {
   const { t, i18n } = useTranslation();
@@ -29,7 +31,11 @@ export function Navbar() {
     <header className="p-4 sticky top-0 z-50 w-full border-b border-blue-900/10 bg-blue-900/5 backdrop-blur">
       <div className="flex justify-between items-center h-16">
         <Link to="/" className="flex items-center">
-          <img src="/image/Logo_alpha.png" alt="Logo" className="h-20 md:h-14" />
+          <img
+            src="/image/Logo_alpha.png"
+            alt="Logo"
+            className="h-20 md:h-14"
+          />
         </Link>
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetTrigger asChild>
@@ -88,22 +94,14 @@ export function Navbar() {
                         className="flex items-center mb-2 hover:bg-blue-500/50 p-2 rounded-xl"
                         onClick={() => changeLanguage("fr")}
                       >
-                        <img
-                          src="./temp"
-                          alt="French flag"
-                          className="h-6 w-6 mr-2"
-                        />
+                        <FranceFlag className="h-6 w-6 mr-2" />
                         <p>{t("french")}</p>
                       </div>
                       <div
                         className="flex items-center hover:bg-blue-500/50 p-2 rounded-xl"
                         onClick={() => changeLanguage("en")}
                       >
-                        <img
-                          src="./temp"
-                          alt="English Flag"
-                          className="h-6 w-6 mr-2"
-                        />
+                        <EnglandFlag className="h-6 w-6 mr-2" />
                         <p>{t("english")}</p>
                       </div>
                     </div>
@@ -141,22 +139,14 @@ export function Navbar() {
                     className="flex items-center mb-2 hover:bg-blue-500/50 p-2 rounded-xl"
                     onClick={() => changeLanguage("fr")}
                   >
-                    <img
-                      src="./temp"
-                      alt="French flag"
-                      className="h-6 w-6 mr-2"
-                    />
+                    <FranceFlag className="h-6 w-6 mr-2" />
                     <p>{t("french")}</p>
                   </div>
                   <div
                     className="flex items-center hover:bg-blue-500/50 p-2 rounded-xl"
                     onClick={() => changeLanguage("en")}
                   >
-                    <img
-                      src="./temp"
-                      alt="English Flag"
-                      className="h-6 w-6 mr-2"
-                    />
+                    <EnglandFlag className="h-6 w-6 mr-2" />
                     <p>{t("english")}</p>
                   </div>
                 </div>

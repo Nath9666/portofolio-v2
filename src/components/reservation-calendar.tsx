@@ -38,7 +38,7 @@ export function ReservationCalendar() {
             selected={date}
             onSelect={setDate}
             initialFocus
-            disabled={(date) =>
+            disabled={(date: Date) =>
               date < new Date() || date > addDays(new Date(), 30)
             }
           />
